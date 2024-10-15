@@ -1,0 +1,1 @@
+export const siteData = JSON.parse("{\"base\":\"/cli/\",\"lang\":\"en-US\",\"title\":\"Hello VuePress\",\"description\":\"Just playing around\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/images/logo.png\"}]],\"locales\":{}}")
