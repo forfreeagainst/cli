@@ -3,6 +3,13 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
+  locales: {
+    '/': {
+      lang: 'zh-CN',
+      title: 'vp-dev',
+      description: 'vuePress',
+    },
+  },
   bundler: viteBundler(),
   lang: 'zh-CN',
   title: 'Hello VuePress',
