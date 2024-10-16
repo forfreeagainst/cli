@@ -4,8 +4,7 @@ import { defineUserConfig } from 'vuepress'
 
 export default defineUserConfig({
   bundler: viteBundler(),
-  theme: defaultTheme(),
-  lang: 'en-US',
+  lang: 'zh-CN',
   title: 'Hello VuePress',
   description: 'Just playing around',
   base: 'cli',
