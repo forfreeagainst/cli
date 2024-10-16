@@ -24,6 +24,7 @@ export default defineUserConfig({
     logo: '/images/logo.png',
     // default theme config
     navbar: [
+      { text: '首页', link: '/index.md' },
       // control when should the item be active
       {
         text: 'Group 2',
